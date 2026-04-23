@@ -57,34 +57,27 @@ This application is divided into two separate repositories. You can explore the 
 
 ## 🚀 Installation & Setup
 
-To run this project locally, you will need to set up both the backend and frontend.
+To run this project locally, you need to start the backend API first, followed by the frontend client. You can do this by running the following commands in your terminal:
 
-### 1. Backend Setup
-First, clone and start the backend server so the frontend has an API to communicate with.
 ```bash
-# Clone the backend repository
+# ==========================================
+# 1. SETUP BACKEND SERVER
+# ==========================================
 git clone [https://github.com/rezanugraha105/makanyuk-backend.git](https://github.com/rezanugraha105/makanyuk-backend.git)
-
-# Navigate into the directory
 cd makanyuk-backend
-
-# Install dependencies
 npm install
 
-# Setup your PostgreSQL database and update the configuration/env files.
+# (Optional: Setup your PostgreSQL database and update the .env files here)
 
-# Run the server
 npm run start
 
-**### 2. Frontend Setup**
-# Clone the frontend repository
+
+# ==========================================
+# 2. SETUP FRONTEND CLIENT
+# (Open a new terminal tab/window)
+# ==========================================
+cd ..
 git clone [https://github.com/rezanugraha105/makanyuk-frontend.git](https://github.com/rezanugraha105/makanyuk-frontend.git)
-
-# Navigate into the directory
 cd makanyuk-frontend
-
-# Install any development dependencies (if applicable)
 npm install
-
-# Run the development server or open the index.html file
 npm run dev
