@@ -9,7 +9,6 @@
   <a href="#tech-stack">Tech Stack</a> •
   <a href="#architecture-&-repositories">Repositories</a> •
   <a href="#installation-&-setup">Installation</a> •
-  <a href="#author">Author</a>
 </p>
 
 ---
