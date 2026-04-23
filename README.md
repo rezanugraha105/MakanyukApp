@@ -32,7 +32,7 @@
 
 ### Frontend 
 * **HTML5 & CSS3** - Core structure and styling.
-* **Vanilla JavaScript (ES6+)** - Dynamic DOM manipulation and API integration.
+* **Tailwind CSS** - Utility-first CSS framework for building highly responsive and modern UI designs.
 * **Leaflet.js** - Open-source JavaScript library for mobile-friendly interactive maps.
 * **Node.js** - For package management and local development environment.
 
@@ -51,32 +51,3 @@ This application is divided into two separate repositories. You can explore the 
 | :--- | :--- | :--- |
 | **Frontend** | [makanyuk-frontend](https://github.com/rezanugraha105/makanyuk-frontend) | Client-side application featuring Leaflet maps and UI. |
 | **Backend** | [makanyuk-backend](https://github.com/rezanugraha105/makanyuk-backend) | Server-side application, REST API, and database config. |
-
----
-
-## 🚀 Installation & Setup
-
-To run this project locally, you need to start the backend API first, followed by the frontend client. You can do this by running the following commands in your terminal:
-
-```bash
-# ==========================================
-# 1. SETUP BACKEND SERVER
-# ==========================================
-git clone [https://github.com/rezanugraha105/makanyuk-backend.git](https://github.com/rezanugraha105/makanyuk-backend.git)
-cd makanyuk-backend
-npm install
-
-# (Optional: Setup your PostgreSQL database and update the .env files here)
-
-npm run start
-
-
-# ==========================================
-# 2. SETUP FRONTEND CLIENT
-# (Open a new terminal tab/window)
-# ==========================================
-cd ..
-git clone [https://github.com/rezanugraha105/makanyuk-frontend.git](https://github.com/rezanugraha105/makanyuk-frontend.git)
-cd makanyuk-frontend
-npm install
-npm run dev
